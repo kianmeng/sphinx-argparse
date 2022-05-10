@@ -105,7 +105,7 @@ Unreleased
 ######
 
  * Remove the ugly new line in the end of usage string (Vadim Markovtsev)
- * Issue #9 Display argument choises (Proposed by Felix-neko, done by Alex Rudakov)
+ * Issue #9 Display argument choices (Proposed by Felix-neko, done by Alex Rudakov)
  * :ref: syntax for specifying path to parser instance. Issue #7 (Proposed by David Cottrell, Implemented by Alex Rudakov)
  * Updated docs to read the docs theme
 

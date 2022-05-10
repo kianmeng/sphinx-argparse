@@ -18,7 +18,7 @@ def parser_navigate(parser_result, path, current_path=None):
         raise NavigationException(f"Current parser has no child elements.  (path: {' '.join(current_path)})")
     next_hop = path.pop(0)
     for child in parser_result['children']:
-        # identifer is only used for aliased subcommands
+        # identifier is only used for aliased subcommands
         identifier = child['identifier'] if 'identifier' in child else child['name']
         if identifier == next_hop:
             current_path.append(next_hop)
